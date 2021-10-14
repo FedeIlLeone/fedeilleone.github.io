@@ -1,0 +1,42 @@
+@import url("http://fonts.cdnfonts.com/css/manrope");
+
+body {
+	color: #fff;
+	background-color: #000;
+
+	animation: color 5s ease infinite alternate-reverse;
+}
+
+h1 {
+	font-family: "Manrope", sans-serif;
+	font-weight: 300;
+	font-size: 50px;
+	text-align: center;
+}
+
+h3 {
+	font-family: "Manrope", sans-serif;
+	font-weight: 300;
+	font-style: oblique;
+	text-align: center;
+}
+
+#textfade {
+	animation: fadein 2s;
+}
+
+@keyframes fadein {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes color {
+	to {
+		background-color: rgb(15, 15, 15);
+	}
+}
